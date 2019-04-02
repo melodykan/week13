@@ -22,8 +22,8 @@ function init() {
     document.addEventListener("keydown",function(e) {key(e)},false);
     cpicker.addEventListener('input', function()
     {
-    color = '' + this.value;
-    onsole.log(color);
+      color = '' + this.value;
+      onsole.log(color);
     })
 
 }
