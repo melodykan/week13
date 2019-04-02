@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Canvas</title>
+  <style>
+    canvas {
+        border:1px solid #d3d3d3;
+        background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body onload="init()">
+  <ul>
+		<li>b for blue</li>
+		<li>r for red</li>
+		<li>y for yellow</li>
+		<li>g for green</li>
+		<li>space bar for clear canvas</li>
+		<li>up arrow for bigger brush</li>
+		<li>down arrow for smaller brush</li>
+		<li>l for toggling brush types</li>
+	</ul> 
+  <canvas id="myCanvas"></canvas><br>
+  <input type="color" id="cpicker" value="#E10000">
+  <script src="canvas.js"></script>
+
+</body>
+</html>
