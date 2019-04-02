@@ -131,5 +131,5 @@ function changeColor(colorcode) {
 
 		
 function clear() {
-  ctx.clearRect(0, 0, 800, 500);
+  ctx.clearRect(0,0,canvas.width,canvas.height)
 }
