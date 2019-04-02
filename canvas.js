@@ -106,10 +106,6 @@ function key(e) {
     case 66:
       changeColor("blue");
         break;
-    // l for line drawing
-    case 76:
-      toggleLine();
-      break;
   }
 }
 	    
@@ -120,10 +116,6 @@ function sizeUp() {
 function sizeDown() {
   size > 1 ? size-- : size = 1;
 } 
-    
-function toggleLine(){
-	brush === 'line' ? brush = 'dot': brush = 'line';
-}
 		
 function changeColor(colorcode) {
   color=colorcode;
